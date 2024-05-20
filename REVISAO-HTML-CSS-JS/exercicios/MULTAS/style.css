@@ -1,0 +1,30 @@
+body{
+    background-color: yellow;
+    margin: auto;
+    justify-content: center;
+    margin-top: 100px;
+}
+nav{
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    background-color: aliceblue;
+    
+}
+h2{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+   
+}
+
+input{
+    width: 25px;
+    height:10px;
+}
+button{
+    background-color: yellow;
+}

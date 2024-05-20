@@ -1,0 +1,19 @@
+.calculadora-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: blueviolet;
+    width: 200px;
+    height: 125px;
+    border-radius: 3px;
+}
+body{
+    background-color: rgba(236, 132, 228, 0.144);
+}
+#botão{
+    background-color: rgba(12, 230, 110, 0.76);
+    color: ghostwhite;
+}
+.number{
+    color: ghostwhite; 
+}

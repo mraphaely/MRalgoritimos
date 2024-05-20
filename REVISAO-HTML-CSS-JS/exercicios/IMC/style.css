@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: rgba(52, 0, 110, 0.836);
+    width: 200px;
+    height: 125px;
+    align-items: center; 
+    margin: auto
+
+}
+body{
+    background-color: aquamarine;
+    
+    justify-content: center;
+}
+    .input{
+        border-radius: 15px;
+        background-color: rebeccapurple;
+    }  
+
+#botao{
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+.number{
+    color:rgb(235, 225, 225); 
+}
+label{
+    color: aliceblue;
+}
+#resultado{
+    background-color: rebeccapurple;
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+    align-items: center; 
+    justify-content: center;
+    margin: auto;
+    color: aliceblue;
+}
+
