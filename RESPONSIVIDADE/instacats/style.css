@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: chocolate;
+
+}
+
+footer {
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+    font-weight: bold;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#login{
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 0.5rem;
+}
+#registrar {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 0.5rem;
+}
+
+.gatito {
+    height: 40px;
+}
+
+.img-3linha{
+   width: 400px;
+   height: 550px;
+    /* width: 100%;
+    height: auto; */
+}
+.img-2linha{
+   width: 600px;
+   height: 600px;
+   /* width: 100%;
+    height: auto; */
+}
+.img-1linha {
+    width: 1200px;
+    height: 1000px;
+    /* width: 100%;
+    height: auto; */
+}
+
+@media screen and (max-width: 768px) {
+    .img-3linha,
+    .img-2linha,
+    .img-1linha {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .gatito {
+        height: 30px;
+    }
+
+    #login,
+    #registrar {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .gatito {
+        height: 25px;
+    }
+
+    #login,
+    #registrar {
+        font-size: 16px;
+    }
+}
